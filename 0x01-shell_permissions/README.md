@@ -1,5 +1,5 @@
 ## File and Directory permissions
-Value	Meaning
+Value and Meaning
 * 777	(rwxrwxrwx) No restrictions on permissions. Anybody may do anything. Generally not a desirable setting.
 * 755	(rwxr-xr-x) The file's owner may read, write, and execute the file. All others may read and execute the file. This setting is common for programs that are used by all users.
 * 700	(rwx------) The file's owner may read, write, and execute the file. Nobody else has any rights. This setting is useful for programs that only the owner may use and must be kept private from others.
